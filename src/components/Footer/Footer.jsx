@@ -33,17 +33,7 @@ export default function Footer (props) {
           })}
         </ul>
       </div>
-      <div className='footer-elements'>
-        <p id="footer-info">&copy; 2023 Copyright | Bryan Santos</p>
-        <div id="icons">
-          <a className='icon-link' href="https://www.github.com/bryandevelops" target="_blank">
-            <i className="fa-brands fa-github-square fa-2xl"></i>
-          </a>
-          <a className='icon-link' href="https://www.linkedin.com/in/bryandevelops" target="_blank">
-            <i className="fa-brands fa-linkedin fa-2xl"></i>
-          </a>
-        </div>
-      </div>
+      
     </footer>
   );
 }
