@@ -1,0 +1,33 @@
+.recipe-detail-view {
+  /* background-image: linear-gradient(90deg, #ed6ea0 0, #ec8c69); */
+  padding: 15px;
+}
+
+.recipe-detail-wrapper {
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.nutrition-section {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 100%;
+  text-align: left;
+}
+
+.nutrition-section h3 {
+  margin-bottom: 15px;
+}
+
+.nutrition-data p {
+  margin: 5px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}

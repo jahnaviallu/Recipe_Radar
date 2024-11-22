@@ -1,0 +1,34 @@
+
+.recipe-card {
+  list-style: none;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 100%;
+  max-width: 300px;
+  margin: 30;
+  cursor: pointer;
+  height: 240px;
+  border-radius: 10px;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+.recipe-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.recipe-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

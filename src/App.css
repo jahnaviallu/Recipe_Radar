@@ -1,0 +1,13 @@
+main {
+  min-height: calc(100vh - 116px - 186px);
+}
+
+.days-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.day-column {
+  flex: 1;
+  margin: 0 10px;
+}

@@ -1,0 +1,174 @@
+/* Base Styles */
+.header {
+  background-color: white;
+  /* Retain original white background */
+  position: relative;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Section Icons */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-svg {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.logo-svg:hover {
+  transform: scale(1.1);
+}
+
+/* Center Title */
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+
+.title-link {
+  text-decoration: none;
+}
+
+.title {
+  font-family: 'ADLaM Display', cursive;
+  color: #343a40;
+  font-size: 2rem;
+  margin: 0;
+  transition: color 0.3s;
+}
+
+.title:hover {
+  color: #007bff;
+}
+
+/* Right Section Icons and Links */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.heart-svg {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s;
+}
+
+.heart-svg:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Header Divider */
+.header-divider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.divider-svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+/* Responsive Styles */
+
+/* Tablets and below */
+@media (max-width: 992px) {
+  .header-container {
+    padding: 10px 15px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .logo-svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .heart-svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header-center {
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 576px) {
+  .header-container {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .logo-svg,
+  .heart-svg {
+    width: 25px;
+    height: 25px;
+  }
+
+  .nav-link {
+    font-size: 0.85rem;
+  }
+
+  .header-left,
+  .header-right {
+    gap: 10px;
+  }
+}

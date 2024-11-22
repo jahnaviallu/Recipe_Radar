@@ -1,0 +1,89 @@
+/* src/pages/Planners/MealPlanView.css */
+
+.meal-plan-view {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.meal-plan-view h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.day-meals {
+    margin-bottom: 40px;
+}
+
+.day-meals h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #343a40;
+}
+
+.meals-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.meal-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.meal-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.meal-thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.meal-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meal-name {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #007bff;
+}
+
+.remove-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    align-self: flex-start;
+}
+
+.remove-button:hover {
+    background-color: #c82333;
+}
+
+.no-meal-plan {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 50px;
+}
