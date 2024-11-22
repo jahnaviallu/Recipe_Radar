@@ -37,7 +37,7 @@ export default function Header() {
         {/* Center Title */}
         <div className='header-center'>
           <Link to='/' className='title-link'>
-            <h1 className='title'>Recipe Radar</h1>
+            <h1 className='title'>Smart Recipe finder & Meal Planner</h1>
           </Link>
         </div>
 
