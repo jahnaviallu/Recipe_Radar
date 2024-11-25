@@ -203,8 +203,8 @@ export async function getMealById(id) {
 
 export async function getNutritionalFacts(ingredient) {
   try {
-    const appId = "0de53962";
-    const appKey = "0bd1fb6a04d4b80988591a5a45ff49f1";
+    const appId = "9af6e4ca";
+    const appKey = "654cbed44de718516f3a987df1ef0045";
     const url = `https://api.edamam.com/api/nutrition-data?app_id=${appId}&app_key=${appKey}&ingr=${encodeURIComponent(
       ingredient
     )}`;
